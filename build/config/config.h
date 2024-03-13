@@ -1,0 +1,2 @@
+#define YETI_VERSION_MAJOR 2
+#define YETI_VERSION_MINOR 3

@@ -47,8 +47,8 @@ install(TARGETS ${PROJECT_NAME} DESTINATION ${PROJECT_BINARY_DIR}/bin)          
 #################
 ### Packaging ###
 include(InstallRequiredSystemLibraries)                                                     ### Includes
-set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/License.txt")
-set(CPACK_PACKAGE_VERSION_MAJOR "${YETI_VERSION_MAJOR}")                         ### Pack major version
-set(CPACK_PACKAGE_VERSION_MINOR "${YETI_VERSION_MINOR}")                         ### Pack minor version
+set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/License.txt")                  ### License
+set(CPACK_PACKAGE_VERSION_MAJOR "${YETI_VERSION_MAJOR}")                                    ### Pack major version
+set(CPACK_PACKAGE_VERSION_MINOR "${YETI_VERSION_MINOR}")                                    ### Pack minor version
 set(CPACK_SOURCE_GENERATOR "TGZ")                                                           ### Type
 include(CPack)                                                                              ### Includes
